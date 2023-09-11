@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>jenkinstest</name>
+    </assembly>
+    <members>
+        <member name="T:jenkinstest.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:jenkinstest.CloseAUT.repo">
+            <summary>
+            Holds an instance of the jenkinstestRepository repository.
+            </summary>
+        </member>
+        <member name="M:jenkinstest.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:jenkinstest.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:jenkinstest.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:jenkinstest.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:jenkinstest.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:jenkinstest.jenkinstestRepository">
+            <summary>
+            The class representing the jenkinstestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.jenkinstestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the jenkinstestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:jenkinstest.jenkinstestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.jenkinstestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.jenkinstestRepository.RxMainFrame">
+            <summary>
+            The RxMainFrame folder.
+            </summary>
+        </member>
+        <member name="T:jenkinstest.jenkinstestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:jenkinstest.jenkinstestRepositoryFolders.RxMainFrameAppFolder">
+            <summary>
+            The RxMainFrameAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:jenkinstest.jenkinstestRepositoryFolders.RxMainFrameAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxMainFrame  folder.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.jenkinstestRepositoryFolders.RxMainFrameAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.jenkinstestRepositoryFolders.RxMainFrameAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.jenkinstestRepositoryFolders.RxMainFrameAppFolder.EnterYourName">
+            <summary>
+            The EnterYourName item.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.jenkinstestRepositoryFolders.RxMainFrameAppFolder.EnterYourNameInfo">
+            <summary>
+            The EnterYourName item info.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.jenkinstestRepositoryFolders.RxMainFrameAppFolder.BtnSubmitUserName">
+            <summary>
+            The BtnSubmitUserName item.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.jenkinstestRepositoryFolders.RxMainFrameAppFolder.BtnSubmitUserNameInfo">
+            <summary>
+            The BtnSubmitUserName item info.
+            </summary>
+        </member>
+        <member name="T:jenkinstest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:jenkinstest.Recording1.repo">
+            <summary>
+            Holds an instance of the jenkinstestRepository repository.
+            </summary>
+        </member>
+        <member name="M:jenkinstest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:jenkinstest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:jenkinstest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:jenkinstest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:jenkinstest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:jenkinstest.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:jenkinstest.StartAUT.repo">
+            <summary>
+            Holds an instance of the jenkinstestRepository repository.
+            </summary>
+        </member>
+        <member name="M:jenkinstest.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:jenkinstest.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:jenkinstest.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:jenkinstest.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:jenkinstest.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:jenkinstest.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fef32128-1a08-4525-8ab2-74682c0921df"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="jenkinstest">
+	</codegen>
+	<variables>
+		<var
+		id="e7af29c4-8d01-4d23-bb02-82b5a3a26843"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="d6a59d93-2a2b-4d13-b171-c68da903de15">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="c98ad57d-5059-42b9-88ec-fa500b9968ba"
+	name="jenkinstestRepository"
+	relativepath="jenkinstestRepository.rxrep">
+		<codegen
+		classname="jenkinstestRepository"
+		namespace="jenkinstest">
+		</codegen>
+		<rootfolder
+		id="8a200e9e-af97-4cfc-901f-35bc8a5cc65e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

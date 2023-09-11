@@ -1,0 +1,63 @@
+﻿<repository
+id="c98ad57d-5059-42b9-88ec-fa500b9968ba"
+name="jenkinstestRepository">
+	<codegen
+	classname="jenkinstestRepository"
+	namespace="jenkinstest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="8a200e9e-af97-4cfc-901f-35bc8a5cc65e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="1ba785dc-a424-48f6-9936-54e54fe5b6a3"
+		isrooted="True"
+		name="RxMainFrame"
+		refimgid="22b61851-0d70-4b57-901e-76601bc2c245"
+		refpath="/form[@automationid='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="81622017-996b-4a65-8cf5-3b64e0f9b955"
+			name="EnterYourName"
+			refimgid="c9f8a242-9ed3-4d96-9322-49f1972f1a48"
+			refpath="/form[@automationid='RxMainFrame' and @title>'Ranorex Studio Demo Appli' and @processname='rxdemo' and @controlname='RxMainFrame' and @controltypename='RxMainFrame' and @controlname='RxMainFrame' and @instance='1']/tabpagelist/tabpage[@title='Introduction' and @automationid='RxTabIntroduction']/text[@automationid='txtUserName']/text[@accessiblename='Enter your name']"
+			robustPath="/form[@automationid='RxMainFrame']//text[@accessiblename='Enter your name']"
+			searchtimeout="30000ms">
+				/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="fa710771-c0ab-4a22-b987-36f6ab30a337"
+			name="BtnSubmitUserName"
+			refimgid="c7c2bde6-8086-4881-9d6d-b44ac285e746"
+			refpath="/form[@automationid='RxMainFrame' and @title>'Ranorex Studio Demo Appli' and @processname='rxdemo' and @controlname='RxMainFrame' and @controltypename='RxMainFrame' and @controlname='RxMainFrame' and @instance='1']/tabpagelist/tabpage[@title='Introduction' and @automationid='RxTabIntroduction']/button[@text='Submit']"
+			robustPath="/form[@automationid='RxMainFrame']//button[@text='Submit']"
+			searchtimeout="30000ms">
+				/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabIntroduction']/button[@text='Submit']
+			</item>
+			<basepath>
+				/form[@automationid='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

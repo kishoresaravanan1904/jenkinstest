@@ -207,7 +207,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>cc3de09b-5181-41f2-a153-51acf2f7fd57</id>
     </Content>
-    <Content Include="namechange.rxtst">
+    <Content Include="jenkinstest.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>33079ea9-d86e-4b0a-87f1-672afa16c8c0</id>
     </Content>

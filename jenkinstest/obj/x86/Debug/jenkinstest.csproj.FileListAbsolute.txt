@@ -1,5 +1,4 @@
 C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\jenkinstest\jenkinstest\bin\Debug\jenkinstest.rxtmg
-C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\jenkinstest\jenkinstest\bin\Debug\jenkinstest.rxtst
 C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\jenkinstest\jenkinstest\bin\Debug\jenkinstest.exe.config
 C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\jenkinstest\jenkinstest\bin\Debug\jenkinstest.xml
 C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\jenkinstest\jenkinstest\bin\Debug\jenkinstest.exe
@@ -10,3 +9,4 @@ C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\jenkinstest\jenkinstest\
 C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\jenkinstest\jenkinstest\obj\x86\Debug\jenkinstest.csproj.CopyComplete
 C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\jenkinstest\jenkinstest\obj\x86\Debug\jenkinstest.exe
 C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\jenkinstest\jenkinstest\obj\x86\Debug\jenkinstest.pdb
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\jenkinstest\jenkinstest\bin\Debug\jenkinstest.rxtst
